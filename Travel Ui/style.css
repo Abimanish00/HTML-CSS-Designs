@@ -1,0 +1,260 @@
+
+.AA img{
+    width: 100%;
+    
+}
+.AA{
+    background-image: url("bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.AA .nav-content{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+}
+.AA li{
+    padding: 20px;
+}
+.AA .header button{
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    border-width: 1px;
+}
+.AA .content{
+    display: block;
+    margin: auto;
+}
+.AA h1{
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 1;
+    color: #181E4B;
+}
+
+.AA h5{
+    color: #DF6951;
+    font-size: 20px;
+    font-weight: 700;
+}
+.AA p{
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 500;
+}
+.AA .but1{
+    background-color: #F1A501;
+    color: white;
+    border-radius: 10px;
+    border-color:transparent;
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.AA .but2{
+    background-color: #DF6951;
+    color: white;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    border-color: transparent;
+}
+.AA h6{
+    color: #686D77;
+}
+.BB h6{
+    color: #5E6282;
+    font-weight: 600;
+}
+.BB img{
+    Width:137.29px;
+    Height:95.23px
+}
+
+.BB{
+    padding: 70px 0px
+}
+.BB h2{
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.BB h5{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+.BB p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #5E6282;
+}
+.BB .flight{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 2px 2px 5px;
+}
+.CC .c-back-1{
+    width: 100%;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px;
+
+}
+.CC .c-back-1 .dest{
+   width: 100%;
+   padding-bottom: 20px;
+}
+.CC .c-back-2 .dest{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.CC .c-back-3 .dest{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.CC .c-back-2{
+    width: 100%;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px;
+}
+.CC .c-back-3{
+    width: 100%;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px;
+}
+.CC {
+    margin-bottom: 120px;
+}
+.DD img{
+    padding: 30px;
+}
+.DD .image4{
+    width: 100%;
+}
+.DD h6{
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+}
+.DD h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.DD{
+    margin-bottom: 120px;
+}
+.EE h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #5E6282;
+}
+.EE h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.EE img{
+    width: 100%;
+}
+.FF{
+    margin-bottom: 120px;
+}
+
+
+
+.GG {
+    border-style: solid;
+    background-color: #DFD7F9;
+    padding: 50px;
+
+    display: block;
+    margin: auto;
+    border-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 20px;
+}
+.GG input{
+    width: 400px;
+    height: 60px;
+    
+}
+.GG h3{
+    padding-bottom: 50px;
+    font-size: 33px;
+}
+.GG button{
+    background-color: #FF946D;
+    border-radius: 10px;
+    color: white;
+    width: 180px;
+    height: 68px;
+    border-color: transparent;
+}
+.HH {
+    margin:120px;
+}
+.HH p{
+    padding-top: 30px;
+}
+@media only screen and (max-width: 991px){
+    .BB img{
+        display: block;
+        margin: auto;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .HH{
+        margin: 40px;
+    }
+}
+@media only screen and (max-width: 780px){
+    .FF .f-resp{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .AA h1{
+        font-size: 60px;
+    }
+    .HH{
+        margin: 30px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .AA h1{
+        font-size: 50px;
+    }
+    .HH{
+        margin: 20px;
+    }
+}
+@media only screen and (max-width: 300px){
+    .AA h1{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 250px){
+    .AA h1{
+        font-size: 20px;
+    }
+}
+
