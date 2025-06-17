@@ -1,0 +1,269 @@
+.logo_layout{
+    margin-right: 150px;
+}
+
+
+
+.A{
+    background-image: url("bgbg1.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.A .content{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+
+}
+.A .nav-link{
+    color: white;
+    font-weight: 500;
+}
+.A .nav-link.active{
+    color: #E9BD8C;
+    font-weight: 700;
+}
+
+.A h6{
+    color: #E9BD8C;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.A h2{
+    color: #F5F5F5;
+    font-size: 74px;
+    font-weight: 600;
+}
+.A button{
+    background-color: #933C24;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+
+    color: #F5F5F5;
+    font-size: 24px;
+    padding: 12px 18px;
+
+}
+
+.B .cards{
+    background-image: url('bg2.png');
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom:20px;
+    background-size: cover;
+}
+
+.B .cards img{
+    height: 230px;
+    width: 100%;
+}
+.B h2{
+    font-family: cursive;
+    padding: 50px;
+}
+.B h5,.B p{
+    color: white;
+}
+.B button{
+    background-color: #933C24;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.C{
+    background-image: url("bg3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0px;
+    margin-top: 40px;
+}
+
+.C button{
+    display: block;
+    margin: auto;
+    background-color: #933C24;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 195px;
+    height: 63px;
+    font-family: Inter;
+    color: #F9F6F1;
+    font-size: 24px;
+}
+
+.C h6{
+    font-family: Inter;
+    color: #B9B9B9;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.C h3{
+    font-family: cursive;
+    color: #933C24;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.D h2{
+    font-family: cursive;
+}
+.D p{
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 0%;
+}
+.D p.bot{
+    border-bottom: solid;
+    border-color: #933C24;
+    border-width: 5px;
+}
+.D img{
+    
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+.E{
+    background-image: url("bg4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0px;
+    margin-top: 40px;
+}
+
+.E button{
+    display: block;
+    margin: auto;
+    background-color: #933C24;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 195px;
+    height: 63px;
+    font-family: Inter;
+    color: #F9F6F1;
+    font-size: 24px;
+}
+
+.E h6{
+    font-family: Inter;
+    color: #B9B9B9;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.E h3{
+    font-family: Sansita Swashed;
+    color: #F5F5F5;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.F h3{
+    font-family: cursive;
+    padding: 30px 0px 50px 0px;
+}
+.F img{
+    /* margin: 30px; */
+    width: 100%;
+}
+.G{
+    background-image: url("bgf.png");
+    background-size: cover;
+    min-height: 60vh;
+    padding-bottom: 20px;
+}
+.G h3{
+    color: #E9BD8C;
+}
+.G h5,.G h4{
+    color: #F5F5F5;
+}
+.G hr{
+    color: #E9BD8C;
+}
+.G p{
+    color: #E9BD8C;
+    margin: 0;
+}
+.G .follow{
+    margin-top: 20px;
+    padding: 20px;
+}
+.G .follow img{
+    padding: 10px;
+}
+
+
+/*   -----1280,1024,920,540,360------ */
+
+@media only screen and (max-width: 1280px) {
+    .A h2{
+        font-size: 70px;
+        color: black;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .A h2{
+        font-size: 60px;
+        color: red;
+    }
+    .F img{
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .A h2{
+        font-size: 50px;
+        color: blue;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .A h2{
+        font-size: 40px;
+        color: green;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .A h2{
+        font-size: 30px;
+        color: yellow;
+    }
+
+   
+
+    .G .follow h3{
+        padding: 0px !important;
+    }
+
+    .G .follow img{
+        height:20px;
+        width: 20px;
+        padding: 0px !important;
+        margin: 10px;
+    }
+
+    .F img, .D img{
+        width: 250px;
+    }
+
+    .D p{
+        font-size: 12px;
+    }
+
+    
+}
+
+
